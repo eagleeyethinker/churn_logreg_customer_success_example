@@ -1,0 +1,52 @@
+# =========================
+# Python artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# ML / Model artifacts
+# =========================
+*.joblib
+*.pkl
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs / outputs
+# =========================
+*.log
+*.out
+
+# =========================
+# OS / editor noise
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
